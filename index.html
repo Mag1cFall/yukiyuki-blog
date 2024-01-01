@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 Cloudflare Pages 网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的网站</h1>
+    <p id="message">这是一个用 Cloudflare Pages 创建的示例网站。</p>
+    <button onclick="changeMessage()">点击我！</button>
+
+    <script>
+        function changeMessage() {
+            document.getElementById('message').innerText = '您点击了按钮！';
+        }
+    </script>
+</body>
+</html>
